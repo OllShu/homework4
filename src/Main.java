@@ -59,5 +59,21 @@ public class Main {
                 if (age >= 7) {
             System.out.println("Ребенок ходит в школу");
         }
+
+        // задание 3 второй части домашки
+
+        people = 10;
+        totalSeats = 102;
+        sittingPlace = 60;
+        if (people >= totalSeats) {
+            System.out.println("Мест в вагоне нет");
+        }
+        else
+            if (people >= sittingPlace) {
+            System.out.println("В вагоне остались только стоячие места");
+        }
+            else {
+            System.out.println("В вагоне есть сидячие и стоячие места");
+        }
     }
 }
