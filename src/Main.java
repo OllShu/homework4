@@ -110,5 +110,25 @@ public class Main {
         if (ridingCarouselуAlone) {
             System.out.println("Ребенку можно кататься на аттракционе без сопровождения");
         }
+
+        // задание 3 третьей части домашки
+
+        int one=1;
+        int two=10;
+        int free=2;
+
+        boolean oneMore = one > two && one > free;
+        boolean twoMore = two > one && two > free;
+        boolean freeMore = free > one && free > two;
+
+        if (oneMore) {
+                System.out.println("Самое большое число "+one);
+            }
+        if (twoMore) {
+            System.out.println("Самое большое число " + two);
+            }
+        if (freeMore) {
+                System.out.println("Самое большое число "+free);
+            }
     }
 }
