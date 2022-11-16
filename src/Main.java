@@ -93,5 +93,22 @@ public class Main {
                 else {
                     System.out.println("Если возраст человека "+age+" лет, то ему пора ходить на работу");
                 }
+
+        // задание 2 третьей части домашки
+
+        age = 14;
+        boolean notRidingCarouselу = age < 5;
+        boolean ridingCarouselуEscort = age <14 && age >=5;
+        boolean ridingCarouselуAlone = age >= 14;
+
+        if (notRidingCarouselу) {
+            System.out.println("Ребенку нельзя кататься на аттракционе");
+        }
+        if (ridingCarouselуEscort) {
+            System.out.println("Ребенку можно кататься на аттракционе только в сопровождении взрослого, одному кататься нельзя");
+        }
+        if (ridingCarouselуAlone) {
+            System.out.println("Ребенку можно кататься на аттракционе без сопровождения");
+        }
     }
 }
