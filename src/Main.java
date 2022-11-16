@@ -34,5 +34,15 @@ public class Main {
         if (people < sittingPlace) {
             System.out.println("В вагоне есть сидячие и стоячие места");
         }
+
+        //задание 1 второй части домашки
+
+        age = 17;
+        if (age >= 18) {
+            System.out.println("Поздравляем, Вы - совершеннолетний!");
+        }
+            else {
+            System.out.println("Увы, до совершеннолетия Вам нужно подождать.");
+                }
     }
 }
